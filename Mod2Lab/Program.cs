@@ -37,9 +37,16 @@ namespace Mod2Lab
             int years = int.Parse(Console.ReadLine());
 
             Console.Write("Enter the interest percentage: ");
-            int interestPerc = int.Parse(Console.ReadLine());
+            string inputReader = Console.ReadLine();
+            int interestPercent = int.Parse(inputReader);
 
+            double interestRate = 1 + (interestPercent / 100.0);
 
+            double total = price * Math.Pow(interestRate, years);
+
+            Console.WriteLine("The total cost of the home: " + total);
+
+            Console.ReadLine();
 
         }
     }
