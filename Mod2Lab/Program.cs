@@ -19,12 +19,27 @@ namespace Mod2Lab
 
             // Practice Quesiton 2
 
-            Console.WriteLine("Please enter a numeric value: ");
-            int numInput = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Please enter a numeric value: ");
+            //int numInput = int.Parse(Console.ReadLine());
 
-            Console.WriteLine(numInput * 2);
+            //Console.WriteLine(numInput * 2);
 
-            Console.ReadLine();
+            //Console.ReadLine();
+
+            // Lab
+
+            Console.Write("Please enter the price of the house: ");
+            string housePrice = Console.ReadLine();
+
+            int price = int.Parse(housePrice);
+
+            Console.Write("Enter the number of years on the mortgage: ");
+            int years = int.Parse(Console.ReadLine());
+
+            Console.Write("Enter the interest percentage: ");
+            int interestPerc = int.Parse(Console.ReadLine());
+
+
 
         }
     }
