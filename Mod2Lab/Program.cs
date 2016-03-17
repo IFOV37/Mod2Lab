@@ -10,6 +10,13 @@ namespace Mod2Lab
     {
         static void Main(string[] args)
         {
+            // Practice Question 1
+            Console.WriteLine("Please enter a string to be displayed: ");
+            string inputText = Console.ReadLine();
+            Console.WriteLine("**** " + inputText + "! ****");
+
+            Console.ReadLine();
+
         }
     }
 }
